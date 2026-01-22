@@ -1,4 +1,5 @@
-import { Subsidiary, SubsidiaryStatus, StrategicCapability, Service } from './types';
+
+import { Subsidiary, SubsidiaryStatus, StrategicCapability, Service } from './types.ts';
 
 export const INDUSTRIES = [
   "Automotive",

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { MBHGroupLogo } from './Logos';
+import { MBHGroupLogo } from './Logos.tsx';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

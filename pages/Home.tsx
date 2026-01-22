@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { INDUSTRIES } from '../constants';
-import { MBHAutomotiveLogo, MBHHousekeepingLogo, StudioMBHLogo } from '../components/Logos';
+import { INDUSTRIES } from '../constants.tsx';
+import { MBHAutomotiveLogo, MBHHousekeepingLogo, StudioMBHLogo } from '../components/Logos.tsx';
 
 const Home: React.FC = () => {
   const PRIMARY_IMAGE = "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop";

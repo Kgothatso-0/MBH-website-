@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { SUBSIDIARIES } from '../constants';
-import { SubsidiaryStatus } from '../types';
-import { MBHAutomotiveLogo, MBHHousekeepingLogo, StudioMBHLogo } from '../components/Logos';
+import { SUBSIDIARIES } from '../constants.tsx';
+import { SubsidiaryStatus } from '../types.ts';
+import { MBHAutomotiveLogo, MBHHousekeepingLogo, StudioMBHLogo } from '../components/Logos.tsx';
 
 const StatusBadge: React.FC<{ status: SubsidiaryStatus }> = ({ status }) => {
   const colors = {

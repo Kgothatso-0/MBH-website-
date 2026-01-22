@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CAPABILITIES, SERVICES } from '../constants';
+import { CAPABILITIES, SERVICES } from '../constants.tsx';
 
 const Capabilities: React.FC = () => {
   return (

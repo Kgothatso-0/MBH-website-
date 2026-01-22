@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MBHGroupLogo } from './Logos';
+import { MBHGroupLogo } from './Logos.tsx';
 
 const Footer: React.FC = () => {
   return (
